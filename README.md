@@ -1,1 +1,1 @@
-Visualizar na WEB: feedts.netlify.app/
+Visualizar na WEB: https://feedts.netlify.app/
