@@ -34,9 +34,7 @@ interface PostProps {
 // para objetos não consigo definir a tipagem de cada obj na propriedade do obj
 // tenho que informar qual que é o tipo do obj inteiro
 export const Post = ({author , publishedAt, content, name, avatarUrl}:PostProps) => {
-    const [comments, setComments] = useState([
-        'Post muito bacana, hein!'
-    ])
+    const [comments, setComments] = useState<string[]>([])
 
     const [newCommentText, setNewCommentText] = useState('');
 

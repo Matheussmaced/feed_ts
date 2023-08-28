@@ -52,9 +52,9 @@ const posts = [
    
 function App() {
 
-  const [avatarUrl, setAvatarUrl] = useState('')
-  const [name, setName] = useState('')
-  const [bio, setBio] = useState('')
+  const [avatarUrl, setAvatarUrl] = useState('https://cdn-icons-png.flaticon.com/512/3641/3641963.png')
+  const [name, setName] = useState('Usuario')
+  const [bio, setBio] = useState('Cargo')
 
   function gitHubUser(){
     const userGitHub = prompt('Digite seu GitHub aqui (Ex : Matheussmaced)')
